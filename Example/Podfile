@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NativeCheckout_Example' do
+  pod 'NativeCheckout', :path => '../'
+
+  target 'NativeCheckout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
