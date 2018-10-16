@@ -1,8 +1,8 @@
 # NativeCheckout
 
-[![Version](https://img.shields.io/cocoapods/v/NativeCheckout.svg?style=flat)](https://cocoapods.org/pods/NativeCheckout)
-[![License](https://img.shields.io/cocoapods/l/NativeCheckout.svg?style=flat)](https://cocoapods.org/pods/NativeCheckout)
-[![Platform](https://img.shields.io/cocoapods/p/NativeCheckout.svg?style=flat)](https://cocoapods.org/pods/NativeCheckout)
+## Docs
+
+https://paypal.github.io/paypalnativecheckout-docs/iOS
 
 ## Installation
 
