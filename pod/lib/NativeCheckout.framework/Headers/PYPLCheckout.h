@@ -32,9 +32,11 @@ typedef NS_ENUM(int, PYPLEnvironments)
 - (void) interceptWebView: (NSObject *)view;
 - (void) interceptWebView: (NSObject *)webview withDelegate: (NSObject*) delegate;
 - (void) startCheckoutWithECToken: (NSString*) token withDelegate: (NSObject*) delegate;
+- (void) startCheckoutWithECToken: (NSString*) token withAuthToken: (NSString*) authToken withDelegate: (NSObject*) delegate;
 - (bool) handleReturnFromPaypal: (NSURL*) url;
 - (void) setEnvironmentWithKey:(NSString*)key Value:(NSObject*)value;
 - (void) getAccessToken;
--(void) application:(UIApplication *)application didChangeStatusBarFrame:(CGRect)oldStatusBarFrame;
+- (void) application:(UIApplication *)application didChangeStatusBarFrame:(CGRect)oldStatusBarFrame;
+- (bool) application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *restorableObjects))restorationHandler;
 
 @end
