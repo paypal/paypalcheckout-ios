@@ -6,6 +6,7 @@
 //  Copyright © 2017 PayPal. All rights reserved.
 //
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 @interface PYPLCheckout : NSObject
 
@@ -19,6 +20,7 @@ typedef NS_ENUM(int, PYPLEnvironments)
 
 @property PYPLEnvironments serviceEnvironment;
 @property bool webBrowserOnlyMode;
+@property NSObject* delegate;
 
 /*
  * sharedInstance: To initialize/get the singleton instance of paypal checkout sdk
@@ -38,5 +40,13 @@ typedef NS_ENUM(int, PYPLEnvironments)
 - (void) getAccessToken;
 - (void) application:(UIApplication *)application didChangeStatusBarFrame:(CGRect)oldStatusBarFrame;
 - (bool) application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray *restorableObjects))restorationHandler;
+
+- (BOOL)webView:(WKWebView *)webView
+decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction
+decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler;
+
+- (BOOL)webView:(UIWebView *)webView
+shouldStartLoadWithRequest:(NSURLRequest *)request
+ navigationType:(UIWebViewNavigationType)navigationType;
 
 @end
