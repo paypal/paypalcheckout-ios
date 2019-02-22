@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PayPal.Checkout'
-  s.version          = '3.4.3'
+  s.version          = '3.4.5'
   s.summary          = 'Add PayPal Checkout to your iOS application.'
   s.description      = <<-DESC
 Provides API for PayPal Checkout for iOS. Provides a native in context checkout experience, as well as a simple Safari View Controller integration.
