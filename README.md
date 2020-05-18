@@ -1,4 +1,4 @@
-# NativeCheckout
+# Native Checkout for iOS
 
 ## Docs
 
@@ -6,13 +6,12 @@ https://paypal.github.io/paypalnativecheckout-docs/iOS/getting_started/
 
 ## Installation
 
-NativeCheckout is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Native Chekout is available through [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your `Cartfile`:
 
-```ruby
-pod 'PayPal.Checkout'
+```
+binary "https://github.com/paypal/paypalcheckout-ios/raw/master/Carthage/PayPalCheckout.json" ~> 0.2.3
 ```
 
 ## License
 
-NativeCheckout is available under the MIT license. See the LICENSE file for more info.
+Native Checkout is available under the MIT license. See the LICENSE file for more info.
