@@ -14,4 +14,4 @@ binary "https://github.com/paypal/paypalcheckout-ios/raw/master/Carthage/PayPalC
 
 ## License
 
-Native Checkout is available under the MIT license. See the LICENSE file for more info.
+See the LICENSE file for more info.
