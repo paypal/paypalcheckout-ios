@@ -2,7 +2,7 @@
 
 ## Docs
 
-https://paypal.github.io/paypalnativecheckout-docs/iOS/getting_started/
+https://developer.paypal.com/docs/limited-release/native-checkout/ios/
 
 ## Installation
 
