@@ -9,7 +9,7 @@ https://developer.paypal.com/docs/limited-release/native-checkout/ios/
 Native Checkout is available through [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your `Cartfile`:
 
 ```
-binary "https://github.com/paypal/paypalcheckout-ios/raw/master/Carthage/PayPalCheckout.json" ~> 0.3.0
+binary "https://github.com/paypal/paypalcheckout-ios/raw/master/Carthage/PayPalCheckout.json" ~> 0.3.1
 ```
 
 ## License
