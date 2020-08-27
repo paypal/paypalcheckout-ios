@@ -19,5 +19,6 @@
   "0.7.0": "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/0.7.0/PayPalCheckout.framework.zip",
   "0.8.0": "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/0.8.0/PayPalCheckout.framework.zip",
   "0.9.0": "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/0.9.0/PayPalCheckout.framework.zip",
-  "0.10.0": "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/0.10.0/PayPalCheckout.framework.zip"
+  "0.10.0": "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/0.10.0/PayPalCheckout.framework.zip",
+  "0.11.0": "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/0.11.0/PayPalCheckout.framework.zip"
 }
