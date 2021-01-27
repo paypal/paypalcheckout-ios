@@ -6,7 +6,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "PayPal" => "jonathajones@paypal.com" }
   spec.platform = :ios, "11.0"
   spec.swift_version = "5.0"
-  spec.static_framework = false
 
   spec.source = { :http => "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/#{spec.version}/PayPalCheckout.xcframework.zip" }
 
