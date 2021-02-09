@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "11.0"
   spec.swift_version = "5.0"
 
-  spec.source = { :http => "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/#{spec.version}/PayPalCheckout.xcframework.zip" }
+  spec.source = { :http => "https://github.com/paypal/paypalcheckout-ios/releases/download/#{spec.version}/PayPalCheckout.xcframework.zip" }
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
