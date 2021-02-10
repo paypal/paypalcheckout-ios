@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name         = "PayPalCheckout"
-  spec.version      = "0.32.0"
+  spec.version      = "0.33.0"
   spec.summary      = "PayPal iOS Native Checkout SDK"
   spec.homepage     = "https://github.com/paypal/paypalcheckout-ios"
   spec.author       = { "PayPal" => "jonathajones@paypal.com" }
   spec.platform = :ios, "11.0"
   spec.swift_version = "5.0"
 
-  spec.source = { :http => "https://github.com/paypal/paypalcheckout-ios/raw/master/Builds/#{spec.version}/PayPalCheckout.xcframework.zip" }
+  spec.source = { :http => "https://github.com/paypal/paypalcheckout-ios/releases/download/#{spec.version}/PayPalCheckout.xcframework.zip" }
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
