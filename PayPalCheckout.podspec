@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "PayPalCheckout"
-  spec.version      = "0.35.0"
+  spec.version      = "0.37.0"
   spec.summary      = "PayPal iOS Native Checkout SDK"
   spec.homepage     = "https://github.com/paypal/paypalcheckout-ios"
   spec.author       = { "PayPal" => "jonathajones@paypal.com" }
