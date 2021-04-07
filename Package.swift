@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let packageVersion = "0.42.0"
+let packageVersion = "0.44.0"
 
 let package = Package(
   name: "PayPalCheckout",
