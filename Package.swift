@@ -18,7 +18,7 @@ let package = Package(
     .binaryTarget(
       name: "PayPalCheckout",
       url: "https://github.com/paypal/paypalcheckout-ios/releases/download/\(packageVersion)/PayPalCheckout.xcframework.zip",
-      checksum: "06a0d702fcb0ef00f7a383465c4bae047c59701d3b312022806be9edcebcf60b"
+      checksum: "d4713fed0fd836bdd21af88bad77dbf3cc2f8dac5dd982764a3e4176390d898c"
     )
   ],
   swiftLanguageVersions: [.v5]
