@@ -33,6 +33,12 @@ let package = Package(
 ```
 If you are adding the PayPalCheckout SDK into a standalone project, you can add the PayPalCheckout SDK by following Apple's [package integration guide](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app), while specifying `https://github.com/paypal/paypalcheckout-ios.git` as the source git repository.
 
+## Feedback
+The PayPal Native Checkout SDK is in active development, we welcome your feedback!
+
+To get in touch with us:
+*  [Open an issue](https://github.com/paypal/paypalcheckout-ios/issues) - for issues, feedback, or to report a bug
+
 
 ## License
 
