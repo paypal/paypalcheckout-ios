@@ -2,7 +2,7 @@
 name: "\U0001F4D9 Documentation Issue Report"
 about: Report an issue with the inline documentation, or the PayPal Developer Docs
 title: "\U0001F4D9 Documentation Issue Report"
-labels: ''
+labels: docs
 assignees: ''
 
 ---
