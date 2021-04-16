@@ -1,5 +1,10 @@
 # Native Checkout for iOS
 
+[![Platform](https://img.shields.io/cocoapods/p/PayPalCheckout)](https://paypal.github.io/mobile-checkout-docs/ios/reference/)
+[![Pod version](https://img.shields.io/cocoapods/v/PayPalCheckout?color=brightgreen&label=pod)](https://github.com/CocoaPods/CocoaPods)
+[![Carthage version](https://img.shields.io/cocoapods/v/PayPalCheckout?color=brightgreen&label=Carthage)](https://github.com/Carthage/Carthage)
+[![SPM version](https://img.shields.io/cocoapods/v/PayPalCheckout?color=brightgreen&label=SPM)](https://github.com/apple/swift-package-manager)
+
 ## Docs
 
 To get started, first checkout out our [quickstart integration guide](https://developer.paypal.com/docs/business/native-checkout/ios/)!
