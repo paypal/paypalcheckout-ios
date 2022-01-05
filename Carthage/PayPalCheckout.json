@@ -25,5 +25,6 @@
   "0.70.0" : "https://github.com/paypal/paypalcheckout-ios/releases/download/0.70.0/PayPalCheckout.framework.zip?alt=https://github.com/paypal/paypalcheckout-ios/releases/download/0.70.0/PayPalCheckout.xcframework.zip",
   "0.73.0" : "https://github.com/paypal/paypalcheckout-ios/releases/download/0.73.0/PayPalCheckout.framework.zip?alt=https://github.com/paypal/paypalcheckout-ios/releases/download/0.73.0/PayPalCheckout.xcframework.zip",
   "0.77.0" : "https://github.com/paypal/paypalcheckout-ios/releases/download/0.77.0/PayPalCheckout.framework.zip?alt=https://github.com/paypal/paypalcheckout-ios/releases/download/0.77.0/PayPalCheckout.xcframework.zip",
-  "0.79.0" : "https://github.com/paypal/paypalcheckout-ios/releases/download/0.79.0/PayPalCheckout.framework.zip?alt=https://github.com/paypal/paypalcheckout-ios/releases/download/0.79.0/PayPalCheckout.xcframework.zip"
+  "0.79.0" : "https://github.com/paypal/paypalcheckout-ios/releases/download/0.79.0/PayPalCheckout.framework.zip?alt=https://github.com/paypal/paypalcheckout-ios/releases/download/0.79.0/PayPalCheckout.xcframework.zip",
+  "0.81.0" : "https://github.com/paypal/paypalcheckout-ios/releases/download/0.81.0/PayPalCheckout.framework.zip?alt=https://github.com/paypal/paypalcheckout-ios/releases/download/0.81.0/PayPalCheckout.xcframework.zip"
 }
