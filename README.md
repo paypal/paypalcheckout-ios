@@ -31,7 +31,7 @@ If you are working in the context of another package, you can add the PayPalChec
 let package = Package(
     name: "MyPackage",
     dependencies: [
-        .package(url: "https://github.com/paypal/paypalcheckout-ios.git", from: "0.104.0"),
+        .package(url: "https://github.com/paypal/paypalcheckout-ios.git", from: "0.106.0"),
     ],
     ...
 )
@@ -44,6 +44,9 @@ The PayPal Native Checkout SDK supports processing transactions that involve res
 First, add PayPalCheckout to your app using any of the steps outlined above. Then, download the `CardinalMobile.xcframework.zip` from the `Frameworks` directory on this repository. 
 
 Unpack the CardinalMobile framework from that .zip, and add it to your application. There is no linking that needs to happen between Cardinal and the PayPalCheckout SDK. 
+
+## OTP Support
+Some users (those in the U.S. with a confirmed phone number associated with their account) will be able to log in to their PayPal account using a one time passcode sent via SMS, instead of via a webview. To test this flow in the `sandbox` environment, log in using a sandbox user with a confirmed phone number. The passcode to test a successful flow will be `111111`, while any other passcode will result in a failure response. 
 
 ## Feedback
 The PayPal Native Checkout SDK is in active development, we welcome your feedback!
