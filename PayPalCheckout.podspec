@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "PayPal iOS Native Checkout SDK"
   spec.homepage     = "https://github.com/paypal/paypalcheckout-ios"
   spec.author       = { "PayPal" => "jonathajones@paypal.com" }
-  spec.platform = :ios, "11.0"
+  spec.platform = :ios, "12.0"
   spec.swift_version = "5.0"
 
   spec.source = { :http => "https://github.com/paypal/paypalcheckout-ios/releases/download/#{spec.version}/PayPalCheckout.xcframework.zip" }

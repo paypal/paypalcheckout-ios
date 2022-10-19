@@ -5,6 +5,16 @@
 [![Carthage version](https://img.shields.io/cocoapods/v/PayPalCheckout?color=brightgreen&label=Carthage)](https://github.com/Carthage/Carthage)
 [![SPM version](https://img.shields.io/cocoapods/v/PayPalCheckout?color=brightgreen&label=SPM)](https://github.com/apple/swift-package-manager)
 
+Welcome to PayPal iOS Checkout SDK! 
+
+This framework allows you to provide a native PayPal checkout experience from within your iOS app.
+
+## Prerequisites
+
+- Deployment target of **iOS 12.0** or higher.
+- Xcode version at least **Xcode 12**.
+- The current language version for the SDK is **Swift 5.4.1**.
+
 ## Docs
 
 To get started, first checkout out our [quickstart integration guide](https://developer.paypal.com/docs/business/native-checkout/ios/)!
