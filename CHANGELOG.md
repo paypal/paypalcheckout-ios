@@ -34,7 +34,7 @@ The `details` object will give you insight into the `Payer`, the array of `Purch
 - Fixes an issue related to dependency resource bundle and framework path during app validation
   while submitting to the store.
 
-## 0.102.0 (2022-09-22)
+## 0.102.0 (2022-08-22)
 - OTP
 - Bug Fixes
 
