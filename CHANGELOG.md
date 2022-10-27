@@ -28,10 +28,11 @@ The `details` object will give you insight into the `Payer`, the array of `Purch
 - Improved accessibility support
 
 ## 0.104.0 (2022-09-01)
-- Previously validating an app while submitting to the store would result in a failure, this release fixes that issue.
+- Fixes an issue with app validation when submitting to the store.
 
 ## 0.103.0 (2022-08-29)
-- Previously, validating an app while submitting to the store would result in a failure relating to a dependency resource bundle and framework path. This release fixes that issue.
+- Fixes an issue related to dependency resource bundle and framework path during app validation
+  while submitting to the store.
 
 ## 0.102.0 (2022-09-22)
 - OTP
