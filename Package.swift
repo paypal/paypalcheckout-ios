@@ -6,7 +6,7 @@ let packageVersion = "0.112.0"
 let package = Package(
   name: "PayPalCheckout",
   platforms: [
-    .iOS(.v12)
+    .iOS(.v13)
   ],
   products: [
     .library(

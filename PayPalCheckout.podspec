@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "PayPal iOS Native Checkout SDK"
   spec.homepage     = "https://github.com/paypal/paypalcheckout-ios"
   spec.author       = { "PayPal" => "jonathajones@paypal.com" }
-  spec.platform = :ios, "12.0"
+  spec.platform = :ios, "13.0"
   spec.swift_version = "5.0"
 
   spec.source = { :http => "https://github.com/paypal/paypalcheckout-ios/releases/download/#{spec.version}/PayPalCheckout.xcframework.zip" }
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'PAYPAL', :text => <<-LICENSE
       SDK LICENSE
 
-      Copyright ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© 2013 - 2017 PayPal Holdings, Inc.
+      Copyright © 2013 - 2023 PayPal Holdings, Inc.
 
       NOTICE TO USER: PayPal Holdings, Inc. is providing the Software and
       Documentation for use under the terms of this Agreement. Any use, reproduction,
