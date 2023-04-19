@@ -1,5 +1,8 @@
 #  Native Checkout iOS SDK Release Notes
 
+## 0.112.0 (2023-04-19)
+- To be completed 
+
 ## 0.109.0 (2022-10-10)
 - Adding a new interface to get details about an order through Approval.actions. This interface only supports orders created with the orders/v2 API, and integrating with this interface may look something like this:
 ```swift
