@@ -11,9 +11,9 @@ This framework allows you to provide a native PayPal checkout experience from wi
 
 ## Prerequisites
 
-- Deployment target of **iOS 12.0** or higher.
-- Xcode version at least **Xcode 12**.
-- The current language version for the SDK is **Swift 5.4.1**.
+- Deployment target of **iOS 13.0** or higher.
+- Xcode version at least **Xcode 14.1**.
+- The current language version for the SDK is **Swift 5.7.1**.
 
 ## Docs
 
