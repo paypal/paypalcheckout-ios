@@ -1,7 +1,30 @@
 #  Native Checkout iOS SDK Release Notes
 
 ## 0.112.0 (2023-04-19)
-- To be completed 
+- *Breaking Changes*
+  - Increased minimum supported iOS version to 13.0
+  - Increased minimum supported Xcode version to 14.1
+  - Increased Swift language version to 5.7.1
+  - Updated the definition of `ShippingChangeAddress` to align with the Android implementation, and to remove the `fullName` from the interface, as this is considered protected end user information
+    - Removed `ShippingChangeAddress.fullName`
+    - Removed `ShippingChangeAddress.adminArea3`
+    - Removed `ShippingChangeAddress.adminArea4`
+
+- *Feature Updates*
+  - Added the ability for users to add an initial payment method to their PayPal account
+  - Updated the UI of the native add-card flow to include complete address input
+ 
+- *Non-Breaking Changes*
+  - Removed the default exit survey, deprecating `Checkout.showsExitSurvey`
+  - Fixed a broken web redirect for non-US locales
+  - Updated the UI of the native add-card flow to include complete address input
+  - Resolved layout and display issues related to Billing Agreement flows
+  - Added support for programmatic logout by calling `Checkout.logoutUser()`
+  - UI updates to provide more accessible experience
+  - Localization updates
+  - Added the ability to force a web fallback 
+    - Can be seen via setting `yourCheckoutConfig.showWebCheckout = true` 
+  - Additional bugfixes and layout adjustments
 
 ## 0.109.0 (2022-10-10)
 - Adding a new interface to get details about an order through Approval.actions. This interface only supports orders created with the orders/v2 API, and integrating with this interface may look something like this:
