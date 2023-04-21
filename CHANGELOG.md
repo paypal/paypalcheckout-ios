@@ -2,9 +2,9 @@
 
 ## 0.112.0 (2023-04-19)
 - *Breaking Changes*
-  - Increased minimum supported iOS version to 13.0
-  - Increased minimum supported Xcode version to 14.1
-  - Increased Swift language version to 5.7.1
+  - Increased minimum supported iOS version to **13.0**
+  - Increased minimum supported Xcode version to **14.1**
+  - Increased Swift language version to **5.7.1**
   - Updated the definition of `ShippingChangeAddress` to align with the Android implementation, and to remove the `fullName` from the interface, as this is considered protected end user information
     - Removed `ShippingChangeAddress.fullName`
     - Removed `ShippingChangeAddress.adminArea3`
