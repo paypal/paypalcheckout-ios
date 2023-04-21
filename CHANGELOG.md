@@ -1,5 +1,10 @@
 #  Native Checkout iOS SDK Release Notes
 
+## 0.112.1 (2023-04-21)
+ - *Non-Breaking Changes*
+   - When a user enters their email address in the native text field, it will now auto-populate if they are prompted for their password in a web flow
+   - Removed the 'handling' line item in the amount totals view, as it is already accounted for in the 'Shipping and handling' line item
+
 ## 0.112.0 (2023-04-19)
 - *Breaking Changes*
   - Increased minimum supported iOS version to **13.0**
