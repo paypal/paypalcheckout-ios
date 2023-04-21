@@ -17,7 +17,6 @@
 - *Non-Breaking Changes*
   - Removed the default exit survey, deprecating `Checkout.showsExitSurvey`
   - Fixed a broken web redirect for non-US locales
-  - Updated the UI of the native add-card flow to include complete address input
   - Resolved layout and display issues related to Billing Agreement flows
   - Added support for programmatic logout by calling `Checkout.logoutUser()`
   - UI updates to provide more accessible experience
