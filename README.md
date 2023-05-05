@@ -1,9 +1,11 @@
+### Notice
+This integration path is only active for existing developers who have previously integrated the PayPal iOS Checkout SDK. For any new developers seeking the Native Checkout experience, this integration path is considered inactive. Please integrate via [BrainTree iOS SDK](https://github.com/braintree/braintree_ios) or [PayPal iOS SDK](https://github.com/paypal/iOS-SDK/).
+
+---
+
 # Native Checkout for iOS
 
-[![Platform](https://img.shields.io/cocoapods/p/PayPalCheckout)](https://paypal.github.io/mobile-checkout-docs/ios/reference/)
-[![Pod version](https://img.shields.io/cocoapods/v/PayPalCheckout?color=brightgreen&label=pod)](https://github.com/CocoaPods/CocoaPods)
-[![Carthage version](https://img.shields.io/cocoapods/v/PayPalCheckout?color=brightgreen&label=Carthage)](https://github.com/Carthage/Carthage)
-[![SPM version](https://img.shields.io/cocoapods/v/PayPalCheckout?color=brightgreen&label=SPM)](https://github.com/apple/swift-package-manager)
+<img src="https://img.shields.io/github/v/release/paypal/paypalcheckout-ios?include_prereleases&style=for-the-badge"/>
 
 Welcome to PayPal iOS Checkout SDK! 
 
