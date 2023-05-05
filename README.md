@@ -5,6 +5,8 @@ This integration path is only active for existing developers who have previously
 
 # Native Checkout for iOS
 
+<img src="https://img.shields.io/github/v/release/paypal/paypalcheckout-ios?include_prereleases&style=for-the-badge"/>
+
 Welcome to PayPal iOS Checkout SDK! 
 
 This framework allows you to provide a native PayPal checkout experience from within your iOS app.
