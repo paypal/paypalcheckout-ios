@@ -1,5 +1,5 @@
 ### Notice
-Integrating the Native Checkout is only active for existing developers who have previously integrated the PayPal iOS Checkout SDK. For any new developers seeking the Native Checkout experience, this integration path is considered inactive. Please integrate via [BrainTree iOS SDK](https://github.com/braintree/braintree_ios) or [PayPal iOS SDK](https://github.com/paypal/iOS-SDK/).
+Integrating the Native Checkout is only active for existing developers who have previously integrated the PayPal iOS Checkout SDK. For any new developers seeking the Native Checkout experience, this integration path is considered inactive. Please integrate via the [BrainTree iOS SDK](https://github.com/braintree/braintree_ios) or the [PayPal iOS SDK](https://github.com/paypal/iOS-SDK/).
 
 ## 3DS Support
 The PayPal Native Checkout SDK supports processing transactions that involve resolving 3D-Secure contingencies. In order to enable 3D-Secure contingency resolution for your users, there are a couple extra steps involved in the PayPalCheckout integration. 
