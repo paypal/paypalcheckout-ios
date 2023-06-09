@@ -1,5 +1,14 @@
 #  Native Checkout iOS SDK Release Notes
 
+## 0.112.2 (2023-06-09)
+ - *Non-Breaking Changes*
+   - Added discount information to cart details
+   - Change url for policies in profile view
+   - Web fallback for users with negative balance
+   - Include google annotations when showing address suggestions
+   - Additional bug fixes and layout adjustments
+   - Fixed a remembered login issue with the web login flow
+
 ## 0.112.1 (2023-04-21)
  - *Non-Breaking Changes*
    - When a user enters their email address in the native text field, it will now auto-populate if they are prompted for their password in a web flow
