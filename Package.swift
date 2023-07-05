@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let packageVersion = "0.112.2"
+let packageVersion = "1.0.0"
 
 let package = Package(
   name: "PayPalCheckout",
@@ -18,7 +18,7 @@ let package = Package(
     .binaryTarget(
       name: "PayPalCheckout",
       url: "https://github.com/paypal/paypalcheckout-ios/releases/download/\(packageVersion)/PayPalCheckout.xcframework.zip",
-      checksum: "49d1a76a41166eef138f3617a74830c96cd756c64a70bbe6efdbe657d1d2ee65"
+      checksum: "653381b514b6d5de1a85fe80d0085217a732c9de2da6ea0afe61f98295d1b67d"
     )
   ],
   swiftLanguageVersions: [.v5]
