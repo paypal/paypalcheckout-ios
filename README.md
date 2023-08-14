@@ -11,7 +11,7 @@ Some users (those in the U.S. with a confirmed phone number associated with thei
 For exisiting developers who have previously integrated the PayPal iOS Checkout SDK
 *  [Open an issue](https://github.com/paypal/paypalcheckout-ios/issues) - for issues, feedback, or to report a bug
 
-For new developers who have not previously integrated the PayPal iOS Checkout SDK, please integrate via the [BrainTree iOS SDK](https://github.com/braintree/braintree_ios) or the [PayPal iOS SDK](https://github.com/paypal/iOS-SDK/). For feedback, issues, or bugs, reach out to the Braintree team. See [BrainTree iOS SDK](https://github.com/braintree/braintree_ios) for more information on how.
+For new developers who have not previously integrated the PayPal iOS Checkout SDK, please integrate via the [Braintree iOS SDK](https://github.com/braintree/braintree_ios) or the [PayPal iOS SDK](https://github.com/paypal/iOS-SDK/). For feedback, issues, or bugs, reach out to the Braintree team. See [Braintree iOS SDK](https://github.com/braintree/braintree_ios) for more information on how.
 
 ## License
 
