@@ -12,18 +12,20 @@
 name: Auto response to raised live issues
 on:
   issues:
-  
+
 jobs:
   add-comment:
     runs-on: ubuntu-latest
     permissions:
       issues: write
     steps:
-      - name: Add comment
-        uses: peter-evans/create-or-update-comment@v3
+      - uses: actions/github-script@v6
         with:
-          issue-number: ${{ github.event.issue.number }}
-          body: |
-            This issue is available for anyone to work on.
-            **Make sure to reference this issue in your pull request.** :sparkles: 
-            Thank you for your contribution! :sparkles:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 Thanks for reporting!
+              Testing'
+            })
