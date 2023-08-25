@@ -12,12 +12,11 @@
 name: Auto response to raised live issues
 on:
   issues:
+    types: [opened]
 
 jobs:
   add-comment:
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
     steps:
       - uses: actions/github-script@v6
         with:
