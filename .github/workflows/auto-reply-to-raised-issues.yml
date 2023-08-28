@@ -25,6 +25,10 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            This issue is available for anyone to work on.
-            **Make sure to reference this issue in your pull request.** :sparkles:
-            Thank you for your contribution! :sparkles:
+            Thank you for reaching out to the Native Checkout SDK team. This integration path is now inactive for new merchants.
+            If you are an existing merchant, please contact us [here](https://www.paypal.com/us/business/contact-sales) for further assistance.
+            
+            New merchants can integrate the Native Checkout experience via the Braintree iOS SDK or PayPal iOS SDK.
+            For more information please see their respective developer documentation linked below.
+              * [Braintree iOS SDK](https://developer.paypal.com/braintree/docs/guides/paypal/native-checkout/ios/v5)
+              * [PayPal iOS SDK](https://developer.paypal.com/beta/advanced-mobile/)
