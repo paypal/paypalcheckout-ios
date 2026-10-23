@@ -1,0 +1,16 @@
+name: CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve and validate Swift package
+        run: |
+          swift package dump-package > /dev/null
+          swift package resolve
+          ls -d .build/artifacts/*/PayPalCheckout*/*.xcframework || find .build -name "*.xcframework" | grep -q .
