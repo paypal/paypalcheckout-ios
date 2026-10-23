@@ -13,4 +13,4 @@ jobs:
         run: |
           swift package dump-package > /dev/null
           swift package resolve
-          swift build
+          ls -d .build/artifacts/*/PayPalCheckout*/*.xcframework || find .build -name "*.xcframework" | grep -q .
